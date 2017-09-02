@@ -1,0 +1,65 @@
+*{
+	padding:0; 
+	margin:0;
+	border:0;
+	font-family: "helvetica";
+	text-decoration:none;
+	list-style-type: none;
+	color:#000;
+
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	max-height:9999999px;
+	-webkit-text-size-adjust:none;
+	-webkit-overflow-scrolling:touch; 
+	overflow-scrolling: touch;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+
+/*
+
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="x5-orientation" content="portrait | landscape" />
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-fullscreen" content="true" />
+<meta name="full-screen" content="yes">
+<meta name="format-detection" content="telephone=no, email=no" />
+
+*/
+
+/* 上中下三段式布局 */
+html,body{
+	height:100%;
+}
+.body-section{
+	display:flex;
+	flex-direction:column;
+}
+.head-section{
+	flex:none;
+}
+.center-section{
+	flex:auto;
+	overflow:auto;
+}
+.foot-section{
+	flex:none;
+}
+
+/* 单行文字超出显示省略号 */
+.hidden-one{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;   /*文字不能换行*/
+}
+
+/* 多行文字超出显示省略号 */
+.hidd-more{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;     /* 固定显示3行*/
+	overflow: hidden;
+	/* 要求容器不能固定高度 */
+}
