@@ -69,5 +69,10 @@ var choose1=$('.choose')
   diaoyong(choose1[1]);
   diaoyong(choose1[2]);
   diaoyong(choose1[3]);
+	
+	var top=$('.ding')[0];
+	top.onclick=function(){
+		animate(document.body,{scrollTop:0});
+	}
 
 })
