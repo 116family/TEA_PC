@@ -1,0 +1,636 @@
+/* 头 */
+.header_top{
+	width: 100%;
+	height: 90px;
+	padding-top: 13px;
+	box-sizing: border-box;
+
+}
+.top_logo{
+	margin: 0 auto;
+	display: block;
+}
+.header_mid{
+	width:100%;
+	height: 50px;
+	background: #462327; 
+}
+.header_mid1{
+	width: 1200px;
+	height: 50px;
+	padding-left: 67px;
+	padding-right: 192px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.mid1_box1{
+	width:64px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	cursor: pointer;
+}
+.mid_dian{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #ED965F;
+	margin-top: 25px;
+	opacity: 0;
+}
+
+.mid_w1{
+	font-size: 16px;
+	font-family: '微软雅黑';
+	color: #ED965F;
+	line-height: 55px;
+	display: block;
+	font-weight: 600;
+}
+.mid1_box1:hover .mid_dian{
+	opacity: 1;
+
+}
+.mid1_box1:hover .mid_w1{
+	color: #FFD7BC;
+}
+.mid1_box2{
+	width:90px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-around;
+}
+.mid1_box2:hover .mid_dian{
+	opacity: 1;
+
+}
+.mid1_box2:hover .mid_w1{
+	color: #FFD7BC;
+}
+.header_bot{
+	width: 100%;
+	height: 201px;
+	padding-top: 26px ;
+	box-sizing: border-box;
+}
+.bot_box1{
+	width: 1200px;
+	height: 130px;
+	display: block;
+	margin: 0 auto;
+}
+.nav{
+	width: 100%;
+	height: 35px;
+	margin-bottom: 33px;
+}
+.nav_box{
+	width:1200px;
+	height: 35px;
+	margin: 0 auto; 
+}
+.nav_box1{
+	width: 210px;
+	height: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav_zi1{
+	width: 74px;
+	height: 35px;
+	display:flex;
+	justify-content: space-around; 
+}
+.nav_icon1{
+	width: 24px;
+	height: 24px;
+
+}
+.nav_w1{
+	font-size: 18px;
+	font-weight: 400;
+	color: #666;
+}
+.nav_zi2{
+	width: 111px;
+	height: 35px;
+	display:flex;
+	justify-content: space-around; 
+}
+.nav_zi3{
+	font-size: 18px;
+	display: block;
+	line-height: 23px;
+	color: #666;
+}
+.main_img{
+	width: 100%;
+	height: 520px;
+	background: #B6B6B6;
+	text-align: center;
+}
+.main_img img{
+	width: 1200px;
+	height: 520px;
+	margin: 0 auto;
+}
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+
+
+
+/* 精品展示 */
+
+.logo1{
+    width: 100%;
+    height: 71px;
+    background-image: url('../../image/lyh-img/铁器礼品_07.jpg');
+    padding: 0px 0px 130px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.show{
+	width: 100%;
+	height: 1204px;
+	/* background: #fff; */
+	margin-top: 10px;
+
+}
+.show_box{
+	width: 1200px;
+	height: 1204px;
+	/* background: lime; */
+	margin: 0 auto;
+
+
+}
+.show_top{
+	width: 593px;
+	height: 129px;
+	/* background: cyan; */
+	list-style: none;
+	margin: 0 auto;
+	display: block;
+	padding: 44px 0 44px 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+
+}
+.show_top>li{
+	font-size: 22px;
+	color: #999999;
+	font-family: '微软雅黑';
+	cursor: pointer;
+
+}
+.show_top>li:first-of-type{
+	color: #5E5051;
+}
+.choose_box{
+	width: 1200px;
+	height: 1014px;
+	/* background: red; */
+	position: relative;
+	/* overflow: hidden; */
+}
+.choose_box>div{
+	width: 1200px;
+	height: 1014px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.choose_box>div:first-of-type{
+	/* background: yellow; */
+	z-index: 300;
+}
+.choose_box>div:nth-child(2){
+	/* background: cyan; */
+}
+.choose_box>div:nth-child(3){
+	/* background: plum; */
+}
+.choose_box>div:nth-child(4){
+	/* background: pink; */
+}
+.gun_box{
+	width: 1200px;
+	height: 888px;
+	/* background:red; */
+	padding: 0px;
+	list-style: none;
+	position: relative;
+}
+.gun_box>li{
+	width: 100%;
+	height: 888px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.gun_box li:first-of-type{
+	/* background:skyblue; */
+	z-index: 30;
+}
+.gun_box li:nth-child(2){
+	/* background: plum; */
+
+}
+.gun_box li:nth-child(3){
+	/* background: blue; */
+
+}
+.top{
+	width: 100%;
+	height: 443px;
+	display: flex;
+	justify-content: space-between;
+}
+.top_l{
+	width: 770px;
+	height: 436px;
+	background-image: url('../../image/lyh-img/铁器礼品_01_03.png');
+	background-repeat: no-repeat;
+	background-size: 770px 436px;
+	/* background: yellow; */
+}
+.top_r{
+	width: 434px;
+	height: 434px;
+	background: pink;
+}
+.right_T{
+	width: 434px;
+	height: 220px;
+	background-image: url('../../image/lyh-img/铁器礼品_01_15.png');
+	background-repeat: no-repeat;
+	background-size: 434px 220px;
+	/* background: yellow; */
+}
+.right_B{
+	width: 434px;
+	height: 214px;
+	background: #F7F7F7;
+	padding-top: 76px;
+	box-sizing: border-box;
+}
+.right_Bw1{
+	font-size: 20px;
+	color: #000000;
+	font-family: '微软雅黑';
+	display: block;
+	text-align: center;
+	line-height: 30px;
+}
+.right_Bw2{
+	width: 316px;
+	height: 62px;
+	margin: 10px auto;
+	font-family: '微软雅黑';
+	font-size: 18px;
+	color: #000;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+
+}
+.choose .dian_box{
+	width: 215px;
+	height: 69px;
+	/* background: red; */
+	margin: 35px auto;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	/* z-index: 300; */
+}
+.dian_box>li{
+	width: 28px;
+	height: 28px;
+	padding: 0;
+	display: block;
+	border-radius: 50%;
+	background: black;
+	margin-top: 15px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+.dian_box>li:first-of-type{
+	background: #41A6ED;
+
+}
+.left{
+	width: 60px;
+	height: 60px;
+	/* background: pink; */
+	font-size: 38px;
+	color: #333;
+	position: absolute;
+	bottom: 30px;
+	left: 420px;
+	text-align: center;
+	cursor: pointer;
+
+}
+.right{
+	width: 60px;
+	height: 60px;
+	/* background: pink; */
+	font-size: 38px;
+	color: #333;
+	position: absolute;
+	bottom: 30px;
+	right: 410px;
+	text-align: center;
+	cursor: pointer;	
+}
+
+
+/* 素壶展示 */
+
+.logo {
+    width: 100%;
+    height: 71px;
+    background-image: url('../../image/lyh-img/铁器礼品_03 (3).png');
+    padding: 70px 0px 130px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.show_box22{
+	width: 1000px;
+	margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+}
+.show_box22 li{
+	width: 305px;
+	height: 550px;
+}
+.show_box22 li img{
+	width: 305px;
+	height: 370px;
+}
+.show_word{
+	width: 100%;
+	height: 105px;
+	padding: 25px 0;
+	text-align: center;
+}
+.show_word p{
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.show_word span{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 24px;
+	display: block;
+	margin-top: 10px;
+}
+.show_word .icon{
+	width: 100%;
+	height: 17px;
+	background-size: 52px 17px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../../image/lyh-img/铁器礼品_07 (2).png');
+}
+
+
+
+/* page */
+.page{
+	width: 700px;
+	height: 71px;
+	margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 20px 0 120px 37px;
+}
+.btnleft{
+	justify-content: space-between;
+	display: flex;
+	width: 450px;
+}
+.btnright{
+	justify-content: space-between;
+	display: flex;
+	width: 200px;
+}
+.page .fill{
+	width: 60px;
+	height: 32px;
+	border: 1px solid #7F7F7F;
+	border-radius: 16px;
+	margin-right:15px;
+}
+.page .fill .mid{
+	width: 49px;
+	height: 24px;
+	border: 2px solid #363636;
+	border-radius: 13px;
+	margin: 2px 0 0 3.7px;
+	text-align: center;
+	position: relative;
+}
+.page .fill .mid img{
+	width: 28px;
+	height: 16px;
+	position: absolute;
+	left: 25%;top: 22%;
+}
+.page .one{
+	width: 32px;
+	height: 32px;
+	border: 1px solid #7F7F7F;
+	border-radius: 50%;
+	margin-right: 13px;
+}
+.page .one .mid{
+	width: 24px;
+	height: 24px;
+	border: 2px solid #363636;
+	border-radius: 50%;
+	margin: 2.3px 0 0 2.3px;
+	text-align: center;
+	line-height:26px;
+	font-size: 14px;
+	color:#3B3B3B;
+}
+.four{
+	width: 32px;
+	height: 32px;
+	border: 1px solid #44A6ED;
+	border-radius: 50%;
+	background:#44A6ED ;
+	margin-right: 15px;
+}
+.page .point{
+	font-size: 0.14px;
+	color: #3B3B3B;
+	margin: 10px 15px 10px 5px;
+}
+.page .jump{
+	width: 1.36px;
+	height: 0.3px;
+	float: left;
+	margin-left: 13px;
+	position: relative;
+	
+}
+.page .jump span{
+	font-size: 14px;
+	color: #3B3B3B;
+}
+.page .jump .left1{
+	width: 80px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.page .fill1{
+	width: 60px;
+	height: 32px;
+	border: 1px solid #E6E6E6;
+	background: #fff;
+	border-radius: 16px;
+	position: absolute;
+	left: 45px;top: 0;
+}
+.page .jump .fill1 .mid{
+	width: 49px;
+	height: 24px;
+	border: 2px solid #E6E6E6;
+	border-radius: 13px;
+	background: #FAFAFA;
+	margin: 2.5px 0 0 3.9px;
+	text-align: center;
+
+}
+.page .jump .right1{
+	position: absolute;
+	left: 110px;top: 7px;
+}
+
+
+
+/* footer */
+.footer{
+	width: 100%;
+	height: 88px;
+}
+.footer_top{
+	width: 325px;
+	height: 88px;
+	margin: 0 auto;
+	padding-top: 12px;
+	box-sizing: border-box;
+	margin-bottom: 61px;
+}
+.top_img{
+	width: 325px;
+	height: 88px;
+	display: block;
+
+
+}
+.footer_bot{
+	width: 100%;
+	height: 305px;
+	background-image: url('../../image/lyh-img/footer.png');
+	background-size: 100% 305px;
+	box-sizing: border-box;
+	text-align: center；
+}
+.ding{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 30px;
+}
+.inner{
+	width: 335px;
+	height: 64px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.inner1{
+	width: 73px;
+	height: 64px;
+}
+.yuan{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+.inner1_w{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top: 3px;
+}
+.inner2{
+	width: 90px;
+	height: 64px;
+}
+.inner3{
+	width: 68px;
+	height: 64px;
+}
+.bottom{
+	width: 770px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom_w1{
+	width: 150px;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+
+	
+}
+.bottom_w2{
+	width: 340px;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+}
+.bottom_w3{
+	width: 250px;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+}
+.bottom2{
+	width: 657px;
+	height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
