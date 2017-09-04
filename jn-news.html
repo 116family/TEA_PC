@@ -7,9 +7,8 @@
 	<link rel="stylesheet" href="css/jn-css/base.css">
 	<link rel="stylesheet" href="js/jn-js/jn-new.js">
 	<link rel="stylesheet" href="iconfont/iconfont.css">
-	<link rel="stylesheet" href="js/lyf-js/index.js">
-	<link rel="stylesheet" href="js/lyf-js/function.js">
-	<link rel="stylesheet" href="js/lyf-js/animate.js">
+	<script src='js/lyf-js/animate.js'></script>
+	<script src='js/lyf-js/function.js'></script>
 </head>
 <body>
 	<div class="header_top">
@@ -348,4 +347,10 @@
 		</div>
 	</div>
 </body>
+<script>
+	var top=$('.ding')[0];
+	top.onclick=function(){
+		animate(document.body,{scrollTop:0});
+	}
+</script>
 </html>
