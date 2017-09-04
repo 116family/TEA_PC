@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="iconfont/iconfont.css">
 	<script src="js/lyf-js/animate.js"></script>
 	<script src="js/lyf-js/function.js"></script>
-	<script src="js/lyf-js/index.js"></script>
 </head>
 <body style="background: #fff">
 <!-- 头部 -->
@@ -162,4 +161,10 @@ domestic well-known brand.</span>
 		</div>
 </div>
 </body>
+<script>
+	var top=$('.ding')[0];
+	top.onclick=function(){
+		animate(document.body,{scrollTop:0});
+	}
+</script>
 </html>

@@ -17,7 +17,13 @@ $(function(){
 	})
 }
 show();
-	
+
+
+//lou
+	var top=$('.ding')[0];
+	top.onclick=function(){
+		animate(document.body,{scrollTop:0});
+	}
 
 	//轮播
 	function diaoyong(obj){
