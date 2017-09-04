@@ -12,7 +12,10 @@ $(function(){
 
 })
 
-
+var top=$('.ding')[0];
+	top.onclick=function(){
+		animate(document.body,{scrollTop:0});
+	}
 
 
 
