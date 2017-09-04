@@ -1,0 +1,525 @@
+html,body{
+	width: 100%;
+}
+.iron{
+	width: 100%;
+	height: 4800px;
+	background: #D5C9BD;
+}
+.iron .logobox{
+	width: 100%;
+	height: 90px;
+	/* background: red; */
+}
+.iron .logobox .logo{
+	width: 295px;
+	height: 78px;
+	/* background: blue; */
+	margin: 0 auto;
+	padding-top: 12px;
+}
+.iron .navbigbox{
+	width: 100%;
+	height: 51px;
+	background: #492428;
+}
+.iron .navbox{
+	width: 1200px;
+	height: 51px;
+	/* background: blue; */
+	margin: 0 auto;
+}
+.iron .navbox ul{
+	width: 833px;
+	height: 100%;
+	/* background: lime; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.iron .navbox ul li a{
+	display: block;
+	/* background: pink; */
+	width: 92px;
+	height: 100%;
+	line-height: 51px;
+	text-align: center;
+	color: #ffa265;
+	font-size: 16px;
+}
+.iron .navbox ul li:first-child a{
+	width: 60px;
+	color: #ffd7bc;
+}
+.iron .navbox ul li:first-child{
+	position: relative;
+}
+.iron .navbox ul li:first-child .dian{
+	width: 5px;
+	height: 5px;
+	background: #ed965f;
+	border-radius: 50%;
+	position: absolute;
+	top: 23px;
+	left: 0;
+}
+.iron .navbox ul li:last-child{
+	width: 40px;
+}
+.iron .banner{
+	width: 100%;
+	height: 649px;
+	/* background: red; */
+	margin: 0 auto;
+	position: relative;
+}
+.iron .banner .banner_1{
+	width: 100%;
+	height: 649px;
+	margin: 0 auto;
+	position: relative;
+}
+.iron .banner .banner_1 .photo_11{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.iron .banner .smallbox{
+	width: 1200px;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 60px;
+	z-index: 100;
+}
+.iron .banner .dianbox{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	/* background: red; */
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+.iron .banner .dianbox ul{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	/* background: green; */
+}
+.iron .banner .dianbox ul li{
+	width: 96px;
+	height: 30px;
+	/* background: red; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.iron .banner .dianbox ul li ol{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+}
+.iron .banner .dianbox ul li ol:first-child{
+	background: #c77c51;
+}
+.iron .banner .leftbtn{
+	width: 34px;
+	height: 64px;
+	/* background: green; */
+	position: absolute;
+	top: 300px;
+	left: -33px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 40px;
+}
+.iron .banner .rightbtn{
+	width: 34px;
+	height: 64px;
+	/* background: green; */
+	position: absolute;
+	top: 300px;
+	right: -33px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 40px;
+}
+.iron .bannerxia{
+	width: 100%;
+	height: 689px;
+	background-image: url(../../image/lyf-image/photo.jpg);
+	background-position: center;
+	/* background-size: cover; */
+	background-repeat: no-repeat;
+}
+.iron .bannerxia .kong{
+	width: 1200px;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+}
+.iron .bannerxia .biaoti{
+	width: 110px;
+	height: 328px;
+	/* background: blue; */
+	float: right;
+	margin-top: 198px;
+	margin-right: 100px;
+}
+.iron .bannerxia ul{
+	width: 259px;
+	height: 407px;
+	/* background: yellow; */
+	float: left;
+	margin-top: 154px;
+	margin-left: 656px;
+	display: flex;
+	justify-content: space-between;
+}
+.iron .bannerxia ul li{
+	width: 22px;
+	height: 100%;
+	/* background: pink; */
+	font-size: 18px;
+	color: #666;
+	text-align: center;
+	font-family: "微软雅黑";
+	line-height: 19px;
+	font-style: 
+}
+/* 关于产品 */
+.iron .about{
+	width: 382px;
+	height: 83px;
+	/* background: red; */
+	margin: 145px auto 59px;
+}
+.iron .aboutbox{
+	width: 1200px;
+	height: 551px;
+	background: url(../../image/lyf-image/photo2.png);
+	margin: 0 auto;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+	border-radius: 7px;
+}
+.iron .aboutbox .photo{
+	width: 406px;
+	height: 475px;
+	background: red;
+	float: left;
+	margin-left: 41px;
+	margin-top: 39px;
+}
+.iron .aboutbox .photo img{
+	width: 100%;
+	height: 100%;
+}
+.iron .aboutbox ul{
+	width: 418px;
+	height: 230px;
+	/* background: red; */
+	float: left;
+	margin-left: 182px;
+	margin-top: 161px;
+	display: flex;
+	justify-content: space-between;
+}
+.iron .aboutbox ul li{
+	width: 49px;
+	height: 185px;
+	/* background: yellow; */
+	background-image: url(../../image/lyf-image/wordsbox.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #462327;
+	font-size: 26px;
+	font-family: "宋体";
+	padding-top: 45px;
+}
+.iron .playwords{
+	width: 592px;
+	height: 74px;
+	/* background: yellow; */
+	margin: 36px auto 180px;
+	text-align: center;
+	font-size: 16px;
+	color: #462327;
+	letter-spacing: 1.6px;
+	text-decoration: underline;
+}
+.iron .playwords .redbox{
+	width: 6px;
+	height: 20px;
+	background: #f44846;
+	float: left;
+}
+.iron .new{
+	width: 382px;
+	height: 83px;
+	/* background: red; */
+	margin: 0 auto;
+}
+.iron .new img{
+	width: 100%;
+	height: 100%;
+}
+.iron .newbox{
+	width: 100%;
+	height: 663px;
+	background-image: url(../../image/lyf-image/photo21.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 84px auto 160px;
+}
+.iron .newbox .newbig{
+	width: 1200px;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+}
+.iron .newbox ul:first-child{
+	width: 178px;
+	height: 334px;
+	/* background: yellow; */
+	float: left;
+	margin-left: 289px;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.iron .newbox ul:first-child li{
+	width: 30px;
+	height: 100%;
+	/* background: lime; */
+	text-align: center;
+	color: #b27045;
+	font-size: 18px;
+	line-height: 20px;
+	font-family: "仿宋";
+}
+.iron .newbox ul:first-child li:last-child{
+	width: 37px;
+	height: 100%;
+	/* background: tomato; */
+	text-align: center;
+	color: #f69c62;
+	font-size: 28px;
+	padding: 0 10px;
+	line-height: 30px;
+	font-family: "仿宋";
+}
+.iron .newbox ul:last-child{
+	width: 54px;
+	height: 257px;
+	/* background: yellow; */
+	float: left;
+	margin-left: 80px;
+	margin-top: 70px;
+}
+.iron .newbox ul:last-child img{
+	width: 100%;
+	height: 100%;
+}
+/* 产品分类 */
+.iron .classify{
+	width: 382px;
+	height: 83px;
+	/* background: red; */
+	margin: 160px auto 104px;
+}
+.iron .classify img{
+	width: 100%;
+	height: 100%;
+}
+.iron .classifyxia{
+	width: 1200px;
+	height: 458px;
+	/* background: red; */
+	margin: 0 auto 100px;
+}
+.iron .classifyxia ul{
+	width: 1001px;
+	height: 100%;
+	/* background: blue; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.iron .classifyxia ul li{
+	width: 331px;
+	height: 381px;
+	background: #fff;
+	position: relative;
+}
+.iron .classifyxia ul li a{
+	display: block;
+	width: 154px;
+	height: 40px;
+	/* background: yellow; */
+	margin: 34px auto 0px;
+	text-align: center;
+	line-height: 40px;
+	color: #462327;
+	font-size: 26px;
+	font-family: "宋体";
+}
+.iron .classifyxia ul li span{
+	display: block;
+	width: 154px;
+	height: 40px;
+	/* background: yellow; */
+	margin: 10px auto 0px;
+	text-align: center;
+	line-height: 40px;
+	color: #462327;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+.iron .classifyxia ul li:first-child ol{
+	width: 288px;
+	height: 296px;
+	/* background: pink; */
+	position: absolute;
+	top: 168px;
+	left: 29px;
+}
+.iron .classifyxia ul li:nth-child(2) ol{
+	width: 288px;
+	height: 256px;
+	background-image: url(../../image/lyf-image/aa2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 168px;
+	left: 29px;
+}
+.iron .classifyxia ul li:nth-child(3) ol{
+	width: 288px;
+	height: 256px;
+	position: absolute;
+	top: 148px;
+	left: 49px;
+}
+/* footer */
+.footer{
+	width: 100%;
+	height: 88px;
+	/* background: plum; */
+}
+.footer_top{
+	width: 325px;
+	height: 88px;
+	margin: 0 auto;
+	/* background: yellow; */
+	padding-top: 12px;
+	box-sizing: border-box;
+	margin-bottom: 61px;
+}
+.top_img{
+	width: 295px;
+	height: 63px;
+	display: block;
+}
+.footer_bot{
+	width: 100%;
+	height: 305px;
+	background-image: url(../../image/lyf-image/footer.png);
+	background-size: 100% 305px;
+	/* padding-top: 85px; */
+	box-sizing: border-box;
+	text-align: center;
+}
+.ding{
+	margin-bottom: 30px;
+}
+.inner{
+	width: 335px;
+	height: 64px;
+	/* background: yellow; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.inner1{
+	width: 73px;
+	height: 64px;
+	/* background: green; */
+}
+.yuan{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+.inner1_w{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top: 3px;
+}
+.inner2{
+	width: 90px;
+	height: 64px;
+	/* background: green; */
+}
+.inner3{
+	width: 68px;
+	height: 64px;
+	/* background: green; */
+}
+.bottom{
+	width: 770px;
+	height: 24px;
+	margin: 0 auto;
+	/* background: yellow; */
+	margin-top: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom_w1{
+	width: 150px;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+	/* background: red; */
+
+	
+}
+.bottom_w2{
+	width: 340px;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+	/* background: red; */
+}
+.bottom_w3{
+	width: 250px;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+}
+.bottom2{
+	width: 657px;
+	height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff; 
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
